@@ -1,0 +1,140 @@
+@media only screen and (max-width: 991px){
+    
+}
+@media only screen and (max-width: 768px){
+    
+    .hg-headerInfo{
+        display: none;
+    }
+    
+/*
+    .navbar{
+        display: none;
+    }
+*/
+    .right-nav{
+        display: none;
+    }
+    .banar-section{
+        min-height: 40rem;
+    }
+    .banar-content {
+        top: 35%;
+        left: 3%;
+        width: 50rem;
+        text-align: left;
+    }
+    .banar-content h1{
+        font-size: 3.5rem;
+    }
+    
+    .choose-content{
+        background: linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.8)),url(img/choose-bg.jpg);
+        background-size: cover;
+    }
+    
+    .choose-box .little-description50,
+    .choose-box .little-description{
+        width: 100%;
+        margin-top: 1rem;
+    }
+    
+    .section-heading p{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .banar-content{
+        left: 7%;
+        text-align: left;
+        width: 37rem;
+    }
+    
+    .banar-content h1{
+        font-size: 3rem;
+    }
+    
+    .choose-box {
+        padding: 1rem 0;
+        width: 90%;
+        left: 5%;
+        margin: auto;
+        color: #fff;
+    }
+    
+    
+    
+    
+    
+    .counter {
+	    margin: 1rem 3rem;
+    }
+    
+    .gallary-section .box{
+        text-align: center;
+    }
+    
+    .team-box {
+	    margin: 3rem 9rem;
+    }
+    
+    
+    
+    .work-box {
+	    margin-top: 3rem;
+    }
+    
+    .right-box{
+        margin-top: 2rem;
+    }
+    
+    .footer-content {
+        width: 27rem;
+        margin: auto;
+    }
+    
+    .qicklink-content{
+        width: 27rem;
+        margin: 2rem auto;
+    }
+    
+    .service-box {
+	    padding: 1rem;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    
+    
+    .team-box {
+	    margin: 3rem 4rem;
+    }
+    
+    .banar-section{
+        min-height: 30rem;
+    }
+    
+    .banar-content {
+        left: 3%;
+        text-align: left;
+        width: 30rem;
+    }
+    
+    .banar-content h1 {
+	    font-size: 2.08rem;
+    }
+    
+    .btn:link, .btn:active, .btn {
+        background: #1a9bdc;
+        padding: .5rem 0.8rem;
+        border-radius: 2.5rem;
+    }
+    
+    .banar-content a {
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+    
+    
+}
